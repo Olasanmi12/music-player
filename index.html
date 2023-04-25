@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+         <meta-name="viewport" content="width                          =device-width, initial-scale=1.0">
+      <title>Music Player</title>
+      <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@1,300&family=Roboto+Slab:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Poppins:ital,wght@1,300&family=Prompt:ital,wght@0,200;1,100;1,200&family=Roboto+Slab:wght@600&family=Work+Sans:ital,wght@0,200;0,400;1,100&display=swap" rel="stylesheet">
+      </head>
+      
+      <body>
+       <div class="container">
+          <h2 class="header">Music Player</h2>
+         
+          <div class="music-container">
+          <div class="music-info">
+              <h3 id="music-title">Ukulele</h3>
+              <div>
+             <div class="progress-container">
+             <div class="progress"></div>
+             </div>     
+              </div>
+          </div>
+      
+   <audio src="music/0.mp3" id="audio"></audio>
+      
+      <div class="image-container">
+        <img src="./images/0.jpg" alt="imgs" id="cover">
+      </div>
+      
+      <div class="control-btns">
+         <button type="button" id="backward" class="action-btn"><i class="fa-sharp fa-solid fa-backward"></i></button>
+          <button type="button" id="play" class="action-btn action-btn-big"><i class="fas fa-play"></i></button>
+           <button type="button" id="forward" class="action-btn"><i class="fa-sharp fa-solid fa-forward"></i></button>
+      </div>
+      </div>
+       </div>   
+          
+          
+          <script src="app.js"></script>
+      </body>
+         </html>
